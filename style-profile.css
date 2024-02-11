@@ -253,6 +253,27 @@ nav{
     flex-basis: 33%;
 }
 .post-col{
-    background: plum;
     flex-basis: 65%;
+}
+.post-col img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 800px;
+}
+.profile-intro{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.profile-intro h3{
+    color: #121212;
+    font-weight: 600;
+}
+.profile-intro h4{
+    color: #121212;
+}
+.profile-intro p{
+    color: #121212;
 }
