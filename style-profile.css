@@ -295,13 +295,44 @@ nav{
 .post-col{
     flex-basis: 65%;
 }
-.post-col img{
-    width: 100%;
+
+.post-box{
+    background-color: var(--color-surface-200);
+    border-radius: 10px;
+    height: 150px;
+    padding: 20px;
+}
+.post-box img{
     overflow: hidden;
     object-fit: cover;
-    height: 800px;
-    border-radius: 10px;
+    height: 50px;
+    border-radius: 50%;
 }
+.add-post{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.add-post input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    margin-left: 25px;
+}
+.add-post hr{
+    color: var(--color-surface-400);
+    height: 1px;
+}
+
+
 .profile-intro{
     background-color: var(--color-surface-200);
     padding: 20px;
@@ -330,3 +361,4 @@ nav{
     margin-left: 0px;
     vertical-align: middle;
 }
+
